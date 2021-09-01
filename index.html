@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Martivans</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./E/Abel y Ariel\Ariel/HTML y CSS(Proyectos)/Recursos/Oswald.ttf">
+    <link rel="stylesheet" href="./E/Abel y Ariel\Ariel/HTML y CSS(Proyectos)/Recursos/Lato/Lato-Thin.ttf">
+    <link rel="stylesheet" href="./E/Abel y Ariel\Ariel/HTML y CSS(Proyectos)/Recursos/Oswald/static/Oswald.ttf">
+    <link rel="stylesheet" href="./E/Abel y Ariel\Ariel/HTML y CSS(Proyectos)/Recursos/Raleway/Raleway-Light.ttf">
+
+  </head>
+
+  <body>
+    <!--Header-->
+    <header id="header">
+      <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./imagenes/Logo.png " alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Blog Road book</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Martivans brand </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Cómo funciona </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="container-fluid text-form ">
+        <div class="row justify-content-between">
+          <div class="d-none col-lg-6  d-lg-block"> <!--cuando el dispositivo es pequenno desaparece esta columna-->
+            <h1>Alquiler de autocaravanas</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis mollis fermentum.
+              Vivamus et est eu mauris accumsan convallis. Integer sit amet est massa.
+              Donec ac vulputate felis. Vivamus pulvinar bibendum fermentum.
+              Suspendisse sapien odio, cursus et sodales eget, venenatis sed neque.
+              Integer porttitor lacinia est, eget pellentesque felis. In eget orci leo.
+            </p>
+            <button type="button" class="btn btn-info">EMPEZAR</button>
+          </div>
+          <!--Esta columna tiene un contenedor con varios formularios, que estan dentro de las columnas-->
+          <div class="col-10 col-lg-4 formulario">
+            <div class="container alquiler_campers_caravanas">
+              <div class="row">
+                <div class="col d-none col-lg-12 d-lg-block ">
+                  <h2>ALQUILER DE CAMPERS Y CARAVANAS</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-10 col-lg-6">
+                  <span>Fecha recogida</span>
+                  <input type="date" class="form-control">
+                </div>
+                <div class="col-10 col-lg-6 ">
+                  <span>Fecha entrega</span>
+                  <input type="date" class="form-control">
+                </div>
+              </div>
+              <!--Lista desplegable para seleccionar el tipo de vehiculo-->
+              <div class="row mt-3">
+                <div class="col-10 col-lg-12">
+                  <span>Tipo de vehículo</span>
+                  <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                  <select class="form-select" id="inlineFormSelectPref">
+                    <option selected></option>
+                    <option value="1">Todas</option>
+                  </select>
+                </div>
+              </div>
+              <!--Lista desplegable para seleccionar dende se va recoger y entregar-->
+              <div class="row">
+                <div class="col-10 col-lg-12">
+                  <span>Recoger y entregar</span>
+                  <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                  <select class="form-select" id="inlineFormSelectPref">
+                    <option selected></option>
+                    <option value="1">One</option>
+                  </select>
+              </div>
+              <!--En esta fila hay una sola columna que contiene los checkboxs-->
+              <div class="row">
+                <div class="col-10 col-lg-12 checkbox">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">1 plaza</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">2 plazas</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">3 plazas</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">4 plazas</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">5 plazas</label>
+                  </div>
+                </div>
+              </div>
+              <!--En esta fila esta el boton de BUSCAR-->
+              <div class="row">
+                <div class="col-10 col-lg-12 boton_buscar">
+                  <button type="button" class="btn btn-info mx-auto">BUSCAR</button>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </header>
+
+    <!--Main-->
+    <main>
+      <!--seccion para elegir el modelo de la carvana -->
+      <section id="tus-nuevos-compañeros-de-viaje" class="pt-4 pb-3">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col text-center">
+              <h2 class="text-uppercase">Tus nuevos compañeros de viaje</h2>
+              <small>Flota de Autocaravanas y campers para alquilar</small>
+              <div class="container rectangulo"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <!--carrusel slide para elegir el modelo de caravana, la imagen y el boton de alquilar-->
+              <div id="carousel" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                <div class="carousel-inner">
+                  <!--Cada elemento del carrusel posee un container de una fila con 4 columnas.
+                    Cada columna tiene: una foto de la caravana, el modelo y un boton-->
+                  <div class="carousel-item active">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <img src="./imagenes/Caravana.png" class="d-block w-100" alt="...">
+                          <h3>Modelo No123</h3>
+                          <button type="button" class="alquilar btn btn-info">ALQUILAR</button>
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/Caravana.png" class="d-block w-100" alt="...">
+                          <h3>Modelo No123</h3>
+                          <button type="button" class="alquilar btn btn-info">ALQUILAR</button>
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/Caravana.png" class="d-block w-100" alt="...">
+                          <h3>Modelo No123</h3>
+                          <button type="button" class="alquilar btn btn-info">ALQUILAR</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <img src="./imagenes/Caravana.png" class="d-block w-100" alt="...">
+                          <h3>Modelo No123</h3>
+                          <button type="button" class="alquilar btn btn-info">ALQUILAR</button>
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/Caravana.png" class="d-block w-100" alt="...">
+                          <h3>Modelo No123</h3>
+                          <button type="button" class="alquilar btn btn-info">ALQUILAR</button>
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/Caravana.png" class="d-block w-100" alt="...">
+                          <h3>Modelo No123</h3>
+                          <button type="button" class="alquilar btn btn-info">ALQUILAR</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <img src="./imagenes/Caravana.png" class="d-block w-100" alt="...">
+                          <h3>Modelo No123</h3>
+                          <button type="button" class="alquilar btn btn-info">ALQUILAR</button>
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/Caravana.png" class="d-block w-100" alt="...">
+                          <h3>Modelo No123</h3>
+                          <button type="button" class="alquilar btn btn-info">ALQUILAR</button>
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/Caravana.png" class="d-block w-100" alt="...">
+                          <h3>Modelo No123</h3>
+                          <button type="button" class="alquilar btn btn-info">ALQUILAR</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Seccion con imagen de fondo, texto informativo y boton de EMPEZAR
+      -->
+      <section id="alquiler-de-autocaravanas">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <h1>Alquiler de autocaravanas</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Sed mattis mollis fermentum. Vivamus et est eu mauris accumsan convallis
+              </p>
+              <!--A este boton se le mantuvo la clase alquilar para que tenga los mismos estilos que los 
+              otros botones-->
+              <button type="button" class="btn btn-info">EMPEZAR</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Seccion la-oferta-de-alquiler-de-autocarabanas -->
+      <section id="la-oferta-de-alquiler-de-autocarabanas">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <h1 class="text-uppercase ">LA OFERTA DE ALQUILER DE AUTOCARAVANAS</h1>
+              <small>más competitiva de europa</small>
+              <div class="container rectangulo"></div>
+            </div>
+          </div>
+          <div class="row text-center mt-4 mb-4 justify-content-around">
+            <div class="col col-lg-3">
+              <img src="./imagenes/Logo 1.png" class="img-fluid" alt="...">
+              <h2>Limpieza con Ozono</h2>
+              <p> Tu estancia 100% segura.
+                Limpiamos con ozono nuestras caravanas y campers para garantizar un espacio seguro y saludable.
+              </p>
+            </div>
+            <div class="col col-lg-3">
+              <img src="./imagenes/Logo 2.png" class="img-fluid" alt="...">
+              <h2>Pet Friendly</h2>
+              <p>Nuestros amigos también viajan.
+                Por supuesto somos pet friendly y los animales están permitidos en nuestros vehículos
+              </p>
+            </div>
+            <div class="col col-lg-3">
+              <img src="./imagenes/Logo 3.png" class="img-fluid" alt="...">
+              <h2>Más kilómetros. Más experiencias</h2>
+              <p>Que el destino no te agobie.
+                Somos la compañía con el límite de km más alto, porque la aventura no conoce límites!!</p>
+            </div>
+          </div>
+          <div class="row text-center mt-3 justify-content-around">
+            <div class="col col-lg-3">
+              <img src="./imagenes/Logo 4.png" class="img-fluid" alt="">
+              <h2>Seguro todo riesgo</h2>
+              <p>Ni un desde ni un susto. Nuestras caravanas llevan siempre seguro todo riesgo incluido.
+                 0 Complicaciones</p>
+            </div>
+            <div class="col col-lg-3">
+              <img src="./imagenes/Logo 5.png" class="img-fluid" alt="">
+              <h2>Modelos nuevos y todo incluido</h2>
+              <p>Vas a estrenar la caravana. Modelos nuevos comprados en 2021.
+                 Y ¿sabes lo mejor? Que vienen con todo incluido: vajilla, menaje…</p>
+            </div>
+            <div class="col col-lg-3">
+              <img src="./imagenes/Logo 6.png" class="img-fluid" alt="">
+              <h2>Hazlo fácil con Bizum</h2>
+              <p>Que el destino no te agoHaz tu reserva con bizum.
+                Lo hacemos fácil. Paga sólo un 20% para confirmar la reserva.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!--Seccion momentos-martivans-->  
+      <section id="momentos-martivans">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <h1 class="text-uppercase ">MOMENTOS MARTIVANS</h1>
+              <small>tus momentos y tus opiniones</small>
+              <div class="container rectangulo-blanco"></div>
+            </div>
+          </div>
+          <div class="row pt-4">
+            <div class="col">
+              <div id="carousel-momentos-martivans" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <img src="./imagenes/1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/3.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/4.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/5.png" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <img src="./imagenes/1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/3.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/4.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/5.png" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <img src="./imagenes/1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/3.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/4.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/5.png" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-momentos-martivans" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-momentos-martivans" data-bs-slide="next">
+                  <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--Imagen circular y loren ipsun-->
+          <div class="row text-center pt-4">
+            <div class="col col-lg-10 offset-lg-1">
+              <img src="./imagenes/Capa 19 foto circular.png" class="img-fluid" alt="">
+              <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed mattis mollis fermentum. Vivamus et est eu mauris accumsan convalli
+                Vivamus et est eu mauris accumsan convalli
+             </p>
+            </div> 
+          </div>   
+        </div>
+      </section>
+    </main>
+
+    <!--El footer del sitio-->
+    <footer id="footer" class="mt-4 pt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-5">
+            <h2 class="text-uppercase">acerca de</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Donec vitae pulvinar tortor. Class aptent taciti sociosqu ad
+              litora torquent per conubia nostra, per inceptos himenaeos.
+              Suspendisse ac lacus magna. Cras congue mollis imperdiet. Vestibulum ante ipsum primis in
+              faucibus orci luctus et ultrices posuere cubilia curae;
+              Aenean pulvinar eros sed felis scelerisque viverra.
+            </p>
+            <p>
+              Morbi feugiat lectus vitae diam ornare, nec porta odio viverra.
+              Morbi commodo sed quam vel congue. Aenean pharetra gravida erat,
+              a pellentesque quam ullamcorper quis. Orci varius natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mus. Morbi eros arcu, consectetur quis dolor vel, placerat condimentum metus.
+            </p>
+          </div>
+          <div class="col">
+            <h2 class="text-uppercase">servicios</h2>
+          </div>
+          <div class="col">
+            <h2 class="text-uppercase">ayuda</h2>
+            <!--El contenido debajo del encabezado se agrago como un listado, pero se mantuvo vacio para 
+            llenarlo en un futuro-->
+            <li></li>
+            <li></li>
+          </div>
+          <div class="col">
+            <select class="form-select" id="inlineFormSelectPref">
+              <option selected></option>
+              <option value="1">Español</option>
+            </select>
+          </div>
+        </div>
+        <div class="row logo">
+          <div class="col">
+            <img src="./imagenes/Logo 0.png" class="img-fluid" alt="">
+            <span>Martivans 2021 | Aviso Legal  |  Politica de privacidad</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

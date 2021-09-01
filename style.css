@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    font-size: 62.5%;
+}
+
+/*Estilos del header*/
+#header {
+    background-image: url(./imagenes/Foto\ Home.png);
+    background-size: cover;
+    width: 100%;
+    height: 70rem;
+    font-size: 2rem;
+}
+/* ajustando el tamaño del logo de martivans*/
+.navbar-brand img {
+    width: 17rem;
+    height: 18.7rem;
+    margin-left: 5rem;
+    
+}
+/*Estilos de los elementos de la barra de navegacion*/
+.nav-item {
+    margin: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-nav {
+    margin-right: 2rem;
+}
+/* Agregando margin y padding al contenedor (text-form) que contiene el texto informativo
+y el formulario del header*/
+.text-form {
+    padding-top: 6rem;
+    padding-left: 8rem;
+       
+}
+.text-form h1 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 4.5rem;
+}
+
+.text-form p {
+    /*Estilos del texto informativo*/
+    font-size: 1.7rem;
+    font-family: "Lato",sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.667;
+    padding-top: 1rem;
+}
+/*Estilos del boton EMPEZAR*/
+.text-form button {
+    font-size: 2rem;
+    color: white;
+    width: 19rem;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(106, 219, 216);
+}
+/*Estilos del formulario*/
+.alquiler_campers_caravanas {
+    color: white;
+    height: 38rem;
+    padding-top: 2rem;
+}
+.alquiler_campers_caravanas h2 {
+    color: black;
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.2;
+    text-align: left;
+    z-index: 113;
+}
+
+.formulario {
+    background-color:white;
+    margin-right: 5rem;
+}
+.formulario span {
+    color: black;
+    font-size: 1.2rem;
+}
+
+/* Cambiando el tamanno a los checkbox*/
+.checkbox .form-check {
+    font-size: 1.1rem;
+    color: black; 
+}
+
+.checkbox {
+    padding-bottom: 2rem;
+}
+
+/* Dandole estilos al boton buscar del formulario*/
+.boton_buscar .btn {
+    width: 36.8rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*Estilos boton alquilar que tiene como clase alquilar*/
+.alquilar {
+    width: 15rem;
+    color: white;
+    font-size: 1.8rem;
+    margin-left: 8rem;
+}
+
+/*Agregando un margin top a la seccion del carrusel*/
+#tus-nuevos-compañeros-de-viaje {
+    margin-top: 5rem;
+}
+
+/*Estilos del encabezado del carrusel*/
+#tus-nuevos-compañeros-de-viaje h2 {
+    font-family: "Oswald" , sans-serif;
+    color: rgb(12, 12, 12);
+    font-size: 3rem;
+}
+
+#tus-nuevos-compañeros-de-viaje small {
+    font-size: 1.8rem;
+    font-family: "Lato";
+    color: rgb(51, 51, 51);
+}
+/* rectangulito que aparece ente el small y las otras imagenes*/
+.rectangulo {
+    background-color: rgb(94, 63, 191);
+    width: 6.4rem;
+    height: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+ #carousel h3 {
+     margin-left: 10rem;
+ }
+ /* estilo de elementos de la seccion alquiler-de-autocarabanas */
+ #alquiler-de-autocaravanas {
+    background-image: url(./imagenes/Foto\ medio.png);
+    background-size: 100%;
+    background-repeat: no-repeat; /*Elimina el efecto mosaico y hace que no se repita la foto*/
+    width: 100%;
+    height: 60rem;
+    color: white;
+    margin-top: 5rem;
+ }
+
+#alquiler-de-autocaravanas h1 {
+    margin-top: 25rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+}
+
+#alquiler-de-autocaravanas p {
+    font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Estilos del boton empezar*/
+ #alquiler-de-autocaravanas button {
+    width: 15rem;
+    color: white;
+    font-size: 1.8rem;
+ }
+
+ /* Estilos de la seccion la-oferta-de-alquiler-de-autocarabanas*/
+ #la-oferta-de-alquiler-de-autocarabanas {
+     margin-top: 4rem;
+ }
+ /* estilo de elementos de la seccion la-oferta-de-alquiler-de-autocarabanas */
+ #la-oferta-de-alquiler-de-autocarabanas h1 {
+     color: black;
+     font-size: 3rem;
+     font-family: 'Oswald', sans-serif;
+}
+
+ #la-oferta-de-alquiler-de-autocarabanas small {
+    font-size: 1.8rem;
+    font-family: "Lato";
+ }
+
+
+#la-oferta-de-alquiler-de-autocarabanas h2 {
+    font-size: 2.5rem;
+    font-family: "Oswald", sans-serif;
+    color: rgb(106, 219, 216);
+    line-height: 1.2;
+    left: 885.937px;
+    top: 2703.702px;
+    z-index: 20;
+}
+
+#la-oferta-de-alquiler-de-autocarabanas p {
+    font-size: 15px;
+    font-family: "Lato";
+    color: rgb(51, 51, 51);
+    line-height: 1.375;
+}
+
+#la-oferta-de-alquiler-de-autocarabanas img {
+    width: 9rem;
+    height: 9rem;
+}
+
+/*Estilos del la seccion momentos martivans*/
+#momentos-martivans {
+    width: 100%;
+    height: 65rem;
+    background-color:rgb(106, 219, 216);
+    margin-top: 4rem;
+}
+#momentos-martivans h1 {
+    font-family: "Oswald";
+    color:white;
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+#momentos-martivans small {
+    font-size: 1.8rem;
+    font-family: "Lato";
+    color: white;
+}
+
+/*Rectangulito blanco*/
+.rectangulo-blanco {
+    background-color: white;
+    width: 6.4rem;
+    height: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/*Estilos del texto que esta debajo de la foto circular*/
+#momentos-martivans p {
+    font-size: "Raleway";
+    font-size: 1.8rem;
+    color: white;
+    line-height: 1.2;
+    z-index: 48;
+}
+
+/*Estilos del footer*/
+
+/* Estilo de los encabezados*/
+#footer h2 {
+    font-size: 2rem;
+    font-family: "Oswald";
+    color: rgb(12, 12, 12);
+    line-height: 1.2;
+}
+
+#footer p {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(51, 51, 51);
+    text-align: left;   
+}
+
+#footer li {
+    list-style: none;
+}
+
+/*Estilo del logo de martivans que aparece en el footer*/
+#footer .logo {
+    margin-top: 10rem;
+} 
+
+/*Estilo del span Martivans 2021 | Aviso Legal  |  Politica de privacidad*/
+#footer span {
+    margin-top: 1rem;
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(51, 51, 51);
+}
+
+
+
+
