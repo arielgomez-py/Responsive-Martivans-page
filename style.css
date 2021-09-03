@@ -101,9 +101,11 @@ y el formulario del header*/
     padding-bottom: 2rem;
 }
 
-/* Dandole estilos al boton buscar del formulario*/
-.boton_buscar .btn {
+/* Estilos boton BUSCAR del formulario*/
+.formulario .boton-buscar  {
     font-family: 'Oswald', sans-serif;
+    background-color:rgb(106, 219, 216);
+    width: 100%;
 }
 
 /*Estilos boton alquilar que tiene como clase alquilar*/
